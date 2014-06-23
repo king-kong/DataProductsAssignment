@@ -19,7 +19,8 @@ shinyUI(pageWithSidebar(
                 "Toronto Ward:",
                 min = 1,
                 max = 44,
-                value = 1)
+                value = 1),
+    p("Github Repo: https://github.com/king-kong/DataProductsAssignment")
   ),
   
   # Show a plot of the generated distribution
